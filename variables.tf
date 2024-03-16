@@ -8,3 +8,8 @@ variable "instance_type" {
 variable "vpc_id" {
     default = "vpc-03cb8c0f312e49ae3"
 }
+
+variable "vpc_cidr_block" {}
+variable "subnet_cidr_block" {}
+variable "availability_zone" {}
+variable "env_prefix" {}
